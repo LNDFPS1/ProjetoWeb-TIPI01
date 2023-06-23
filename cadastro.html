@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Cadastro de produtos</h1>
+    <form action="">
+        <label for="codigo">Código:</label>
+        <input type="number" name="codProd" id="codigo" readonly /><br><br>
+        
+        <label for="descProd">Descrição:</label>
+        <input type="text" name="descProd" id="descProd" placeholder="Insira o nome do produto" maxlength="100" size="100"/><br><br>
+
+        <label for="valrProd">Valor:</label>
+        <input type="text" name="valrProd" id="valrProd"/><br><br>
+
+        <label for="qtdProd">Quantidade:</label>
+        <input type="text" name="qtdProd" id="qtdProd"/><br><br>
+
+        <label for="prodSelect">Descrição:</label>
+        <select name="prodSelect" id="prodSelect"><br><br>
+            <option value="banana">Banana</option>
+            <option value="cebola">Cebola</option>
+            <option value="manga">Manga</option>
+            <option value="maça">Maça</option>
+            <option value="bergamota">Bergamota</option>
+            <option value="abacate">Abacate</option>
+        </select>
+        <br>
+        <label for="escolha">Escolha:</label><br>
+        <input type="checkbox" name="maduro"> <label for="maduro">Maduro</label> <br>
+        <input type="checkbox" name="verde"> <label for="verde">Verde</label>    <br>
+        <input type="checkbox" name="passado"> <label for="passado">Passado</label> <br>
+
+        <label for="formapagto">Forma de Pagamento:</label> <br>
+
+        <input type="radio" name="formapagto" id="vista"> <label for="vista">A vista</label> <br>
+        <input type="radio" name="formapagto" id="pix"> <label for="pix">PIX</label> <br>
+        <input type="radio" name="formapagto" id="credito"> <label for="credito">Cartão de crédito</label> <br>
+        <input type="radio" name="formapagto" id="debito"> <label for="debito">Cartão de débito</label> <br>
+        <br>
+        <input type="submit" name="Enviar" id="enviar" value="Enviar"> 
+        <input type="reset"  name="Limpar" id="limpar" value="Limpar"> <br>
+        
+
+    </form>
+     
+</body>
+</html>
